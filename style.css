@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    gap: 20px;
+}
+
+.tools {
+    margin: 0;
+    width: auto;
+    max-width: 95vw;
+    padding: 15px 30px;
+    background: white;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.colorInput {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    color: #333;
+}
+
+.brushSizeInput {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    color: #333;
+}
+
+input[type="color"] {
+    border: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background: none;
+}
+
+input[type="range"] {
+    cursor: pointer;
+    accent-color: #6c5ce7;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    text-transform: capitalize;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.btn:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-2px);
+}
+
+.active {
+    background-color: #6c5ce7;
+    color: white;
+    box-shadow: 0 4px 15px rgba(108, 92, 231, 0.3);
+}
+
+.active:hover {
+    background-color: #5b4bc4;
+}
+
+#download {
+    background-color: #00b894;
+    color: white;
+}
+
+#download:hover {
+    background-color: #00a383;
+    box-shadow: 0 4px 15px rgba(0, 184, 148, 0.3);
+}
+
+#clean {
+    background-color: #ff7675;
+    color: white;
+}
+
+#clean:hover {
+    background-color: #d63031;
+    box-shadow: 0 4px 15px rgba(255, 118, 117, 0.3);
+}
+
+#canvas {
+    border: none;
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
