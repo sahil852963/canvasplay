@@ -29,5 +29,5 @@ A modern, web-based drawing application that allows users to sketch, draw shapes
    git clone https://github.com/yourusername/canvasplay.git
 
 
-## Author
-[My portfolio] - "https://sahilsharmablogs.in/"
+## Author  
+🔗 **[Visit my portfolio](https://sahilsharmablogs.in/)**
